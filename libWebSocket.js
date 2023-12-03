@@ -163,7 +163,7 @@ addEventListener('wssStart', function (e) {
         });
     });
 
-    server.listen(9001, '127.0.0.1');
+    server.listen(9001, '0.0.0.0');
     addEventListener('copyText', broadcast);
     addEventListener('translate', broadcast);
 });
